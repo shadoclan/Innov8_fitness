@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - My Gym</title>
+    <link rel="stylesheet" href="gym.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME </a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="offer.html">OFFER</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Get in Touch</h2>
+        <p>If you have any questions, feel free to reach out to us. We’re here to help!</p>
+        
+        <section>
+            <h3>Contact Information</h3>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> <a href="mailto:info@mygym.com">info@mygym.com</a></p>
+            <p><strong>Address:</strong> 123 Fitness Lane, [Your City], [Your State], [Your ZIP Code]</p>
+        </section>
+        
+        <section>
+            <h3>Contact Form</h3>
+            <form action="submit_form.php" method="post"> <!-- Replace with your form processing script -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Gym | <a href="home.html">Home</a></p>
+    </footer>
+</body>
+</html>
